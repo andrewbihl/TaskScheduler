@@ -15,6 +15,14 @@
 #import "GTLJSONParser.h"
 #import "GTLTargetNamespace.h"
 #import "GTLUtilities.h"
+#import "GTLQueryTasks.h"
+#import "GTLServiceTasks.h"
+#import "GTLTasks.h"
+#import "GTLTasksConstants.h"
+#import "GTLTasksTask.h"
+#import "GTLTasksTaskList.h"
+#import "GTLTasksTaskLists.h"
+#import "GTLTasksTasks.h"
 
 FOUNDATION_EXPORT double GoogleAPIClientVersionNumber;
 FOUNDATION_EXPORT const unsigned char GoogleAPIClientVersionString[];

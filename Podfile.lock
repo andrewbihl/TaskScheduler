@@ -1,8 +1,8 @@
 PODS:
-  - GoogleAPIClient (1.0.5):
-    - GoogleAPIClient/Core (= 1.0.5)
-    - GTMSessionFetcher (~> 1.1)
   - GoogleAPIClient/Core (1.0.5):
+    - GTMSessionFetcher (~> 1.1)
+  - GoogleAPIClient/Tasks (1.0.5):
+    - GoogleAPIClient/Core
     - GTMSessionFetcher (~> 1.1)
   - GTMOAuth2 (1.1.4):
     - GTMSessionFetcher (~> 1.1)
@@ -13,7 +13,7 @@ PODS:
     - GTMSessionFetcher/Core (= 1.1.8)
 
 DEPENDENCIES:
-  - GoogleAPIClient (~> 1.0.2)
+  - GoogleAPIClient/Tasks (~> 1.0.2)
   - GTMOAuth2 (~> 1.1.0)
 
 SPEC CHECKSUMS:
@@ -21,6 +21,6 @@ SPEC CHECKSUMS:
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
 
-PODFILE CHECKSUM: d2baf83390ea5c8259674175a68355cb82affd99
+PODFILE CHECKSUM: 353f6cd55092a5ab44be94dd7af3ab3bf8e754f8
 
 COCOAPODS: 1.0.1
